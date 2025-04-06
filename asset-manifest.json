@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/dhanushriPortfolio/static/css/main.455f8153.css",
+    "main.js": "/dhanushriPortfolio/static/js/main.44360963.js",
+    "static/js/488.c67d8629.chunk.js": "/dhanushriPortfolio/static/js/488.c67d8629.chunk.js",
+    "static/media/dhanushree_ghibili.png": "/dhanushriPortfolio/static/media/dhanushree_ghibili.c964fb715b0e5b4ec50e.png",
+    "static/media/output-onlinegiftools.gif": "/dhanushriPortfolio/static/media/output-onlinegiftools.02cc25f936771f530835.gif",
+    "static/media/logo.png": "/dhanushriPortfolio/static/media/logo.8c1f55c3246097af13be.png",
+    "index.html": "/dhanushriPortfolio/index.html",
+    "main.455f8153.css.map": "/dhanushriPortfolio/static/css/main.455f8153.css.map",
+    "main.44360963.js.map": "/dhanushriPortfolio/static/js/main.44360963.js.map",
+    "488.c67d8629.chunk.js.map": "/dhanushriPortfolio/static/js/488.c67d8629.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.455f8153.css",
+    "static/js/main.44360963.js"
+  ]
+}
