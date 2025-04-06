@@ -11,6 +11,12 @@ This is not just a static site — it’s a **dynamic website** powered by a  Mo
 
 ---
 
+### 🎥 Portfolio Demo
+
+![Demo](https://drive.google.com/file/d/1j4ApadAsTeLV3J9W4AwvcerBck3lbzMS/view?usp=sharing)
+
+---
+
 ### 🏠 Home Page
 ![Home](https://raw.githubusercontent.com/dhanushrichandrasekar/dhanushriPortfolio/c2f29ad618d2bf1f27ce005c25966e29c18133b8/home.jpg)
 
