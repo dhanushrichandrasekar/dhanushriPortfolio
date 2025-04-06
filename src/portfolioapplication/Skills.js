@@ -15,7 +15,7 @@ function Skills() {
       once: true, 
     });
     AOS.refresh();
-    fetch('http://localhost:3000/skillspage')
+    fetch('https://dhanushriportfoliodatabase1.onrender.com/skillspage')
       .then((response) => {
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
