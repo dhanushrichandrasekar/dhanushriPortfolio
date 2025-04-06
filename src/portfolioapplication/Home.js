@@ -5,14 +5,16 @@ import Skills from './Skills';
 import Projects from './Projects';
 import Contact from './Contact';
 import Journey from './Journey';
+
 class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      content: '',
       content2: '',
       content3: '',
       image: '',
-      cv: '', 
+      cv: '',
       loading: true,
       error: null,
     };
@@ -24,13 +26,16 @@ class Home extends Component {
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
       }
+
       const data = await response.json();
+      const homepage = Array.isArray(data) ? data[0] : data; // Handle array response
+
       this.setState({
-        content: data.content || 'No content available',
-        content2: data.content2 || 'No additional content available',
-        content3: data.content3 || 'No third content available',
-        image: data.image || '',
-        cv: data.cv || '', 
+        content: homepage.content || 'No content available',
+        content2: homepage.content2 || 'No additional content available',
+        content3: homepage.content3 || 'No third content available',
+        image: homepage.image || '',
+        cv: homepage.cv || '',
         loading: false,
       });
     } catch (error) {
@@ -49,6 +54,7 @@ class Home extends Component {
             <p className="mt-custom py-3">Hello ♥</p>
             <h3 className="mt-custom2">I’m Dhanushri Chandrasekaran</h3>
           </header>
+
           {loading ? (
             <p className="text-center">Loading...</p>
           ) : error ? (
@@ -59,19 +65,19 @@ class Home extends Component {
                 <p>
                   As a <span>Frontend Developer</span>, I artfully combine design and functionality to deliver seamless, intuitive web experiences.
                 </p>
+
                 {cv && (
                   <a href={cv} download="dhanushri_resume.pdf">
-                  <Button className="mb-2 downloadbutton downloadbutton2">
-                  Review CV
-                  </Button>
-                </a>
-                
+                    <Button className="mb-2 downloadbutton downloadbutton2">Review CV</Button>
+                  </a>
                 )}
+
                 <p className="mt-2">{content2}</p>
                 <p className="feelfree">
                   Feel free to reach out – Let's make great things happen together!
                 </p>
               </Col>
+
               {image && (
                 <Col xs={12} md={6} lg={7} className="px-md-5">
                   <img
@@ -84,6 +90,7 @@ class Home extends Component {
               )}
             </Row>
           )}
+
           <section id="about-section">
             <About />
           </section>
