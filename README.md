@@ -13,7 +13,7 @@ This is not just a static site — it’s a **dynamic website** powered by a  Mo
 
 ### 🎥 Portfolio Demo
 
-[![Demo](https://raw.githubusercontent.com/dhanushrichandrasekar/dhanushriPortfolio/main/home.jpg)](https://drive.google.com/file/d/1j4ApadAsTeLV3J9W4AwvcerBck3lbzMS/view?usp=sharing)
+https://drive.google.com/file/d/1j4ApadAsTeLV3J9W4AwvcerBck3lbzMS/view?usp=sharing
 
 
 ---
