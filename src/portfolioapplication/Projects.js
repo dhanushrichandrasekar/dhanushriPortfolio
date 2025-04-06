@@ -13,7 +13,7 @@ function Projects() {
   useEffect(() => {
     AOS.init({ duration: 1000, once: true });
 
-    fetch('https://dhanushriportfoliodatabase1.onrender.com/projectspage')
+    fetch('https://dhanushriportfoliodb.onrender.com/projectspage')
       .then((response) => {
         if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
         return response.json();
