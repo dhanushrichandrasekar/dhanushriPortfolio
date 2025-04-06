@@ -20,7 +20,7 @@ class Home extends Component {
 
   async componentDidMount() {
     try {
-      const response = await fetch('http://localhost:3000/homepage');
+      const response = await fetch('https://dhanushriportfoliodatabase1.onrender.com/homepage');
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
       }
