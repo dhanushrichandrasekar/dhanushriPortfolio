@@ -8,3 +8,38 @@ It’s not just a portfolio – it’s a reflection of my passion for **web deve
 This is not just a static site — it’s a **dynamic website** powered by a  Mock API, making the content flexible and easy to manage behind the scenes! 🔄
 
 🔗 **Check it out here:** [My Live Portfolio](https://dhanushricportfolio.onrender.com/)
+
+---
+
+### 🏠 Home Page
+![Home](https://raw.githubusercontent.com/dhanushrichandrasekar/dhanushriPortfolio/c2f29ad618d2bf1f27ce005c25966e29c18133b8/home.jpg)
+
+---
+
+### 🙋‍♀️ About Me
+![About](https://raw.githubusercontent.com/dhanushrichandrasekar/dhanushriPortfolio/c2f29ad618d2bf1f27ce005c25966e29c18133b8/about.jpg)
+
+---
+
+### 🎓 Education
+![Education](https://raw.githubusercontent.com/dhanushrichandrasekar/dhanushriPortfolio/c2f29ad618d2bf1f27ce005c25966e29c18133b8/educationjourn.jpg)
+
+---
+
+### 🛠️ Skills
+![Skills](https://raw.githubusercontent.com/dhanushrichandrasekar/dhanushriPortfolio/c2f29ad618d2bf1f27ce005c25966e29c18133b8/skillsst.jpg)
+![Skills Continued](https://raw.githubusercontent.com/dhanushrichandrasekar/dhanushriPortfolio/c2f29ad618d2bf1f27ce005c25966e29c18133b8/skills.jpg)
+
+---
+
+### 💼 Projects
+![Projects](https://raw.githubusercontent.com/dhanushrichandrasekar/dhanushriPortfolio/c2f29ad618d2bf1f27ce005c25966e29c18133b8/projects.jpg)
+![Projects Continued](https://raw.githubusercontent.com/dhanushrichandrasekar/dhanushriPortfolio/c2f29ad618d2bf1f27ce005c25966e29c18133b8/projectscont.jpg)
+
+---
+
+### 🔚 Footer
+![Footer](https://raw.githubusercontent.com/dhanushrichandrasekar/dhanushriPortfolio/c2f29ad618d2bf1f27ce005c25966e29c18133b8/footer.jpg)
+
+---
+
