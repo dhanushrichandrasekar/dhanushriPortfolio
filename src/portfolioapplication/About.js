@@ -7,7 +7,7 @@ function About() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null); 
   useEffect(() => {
-    fetch('http://localhost:3000/aboutpage') 
+    fetch('https://dhanushriportfoliodatabase1.onrender.com/aboutpage') 
       .then((response) => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
